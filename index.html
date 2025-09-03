@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ganlo16 Portfolio</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .container {
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .profile-header img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+
+  p {
+    margin-top: 15px;
+    font-size: 16px;
+    max-width: 800px;
+  }
+
+  /* Разделы */
+  .section {
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 8px;
+  }
+
+  /* Навыки и опыт */
+  .skills, .experience {
+    padding-left: 20px;
+  }
+
+    .skills, .prices {
+    padding-left: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+
+  li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+  }
+
+  /* Галерея работ */
+  .works {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+ .works img {
+  width: 270px; /* фиксированная ширина для всех картинок */
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+  .works img:hover {
+    transform: scale(2);
+    box-shadow: 0 0 25px rgba(255,255,255,0.4);
+  }
+
+
+  /* Стиль для раздела контактов */
+.contacts {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.contacts li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+  /* Контакт или дополнительные разделы можно добавить позже */
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Заголовок и фото -->
+  <div class="profile-header">
+    <img src="avatar1.jpg" alt="Profile Photo" />
+    <h1>Ganlo16</h1>
+    <p>
+      Experienced builder and modeler using only roblox studio
+    </p>
+
+  </div>
+
+  <!-- Навыки и опыт -->
+  <div class="section">
+    <h2>Skills & Experience</h2>
+    <ul class="skills">
+      <li>Building</li>
+      <li>Interior Models</li>
+      <li>Entity Modelling</li>
+      <li>Rigging</li>
+      <li>Texturing</li>
+    </ul>
+  </div>
+
+  <!-- Галерея работ -->
+  <div class="section">
+    <h2>Entity Models</h2>
+    <p>I've been developing my own blocky style that uses only parts. Can make any style using blocks, don't have to be a horror.</p>
+    <div class="works">
+      <img src="Model1.png" alt="Work 1" />
+     <img src="Model2.png" alt="Work 2" />
+<img src="Model3.png" alt="Work 3" />
+<img src="Model4.png" alt="Work 4" />
+<img src="Model5.png" alt="Work 5" />
+<img src="Model6.png" alt="Work 6" />
+<img src="Model7.png" alt="Work 7" />
+<img src="Model8.png" alt="Work 8" />
+<img src="Model9.png" alt="Work 9" />
+    </div>
+
+ <h2>Building Models</h2>
+    <p>All building were made from parts, can do both exterior and interior without anything looking weird or strangely scaled.</p>
+    <div class="works">
+      <img src="Building1.png" alt="Work 1" />
+      <img src="Building2.png" alt="Work 2" />
+      <img src="Building3.png" alt="Work 3" />
+      <img src="Building4.png" alt="Work 2" />
+      <img src="Building5.png" alt="Work 3" />
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
