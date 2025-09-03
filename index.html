@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GanloG Portfolio</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .container {
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .profile-header img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+
+  p {
+    margin-top: 15px;
+    font-size: 16px;
+    max-width: 800px;
+  }
+
+  /* Разделы */
+  .section {
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 8px;
+  }
+
+  /* Навыки и опыт */
+  .skills, .experience {
+    padding-left: 20px;
+  }
+
+    .skills, .prices {
+    padding-left: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+  }
+
+  li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+  }
+
+  /* Галерея работ */
+  .works {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+ .works img {
+  width: 270px; /* фиксированная ширина для всех картинок */
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+  .works img:hover {
+    transform: scale(1.55);
+    box-shadow: 0 0 25px rgba(255,255,255,0.4);
+  }
+
+
+  /* Стиль для раздела контактов */
+.contacts {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.contacts li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+  /* Контакт или дополнительные разделы можно добавить позже */
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Заголовок и фото -->
+  <div class="profile-header">
+    <img src="avatar1.jpg" alt="Profile Photo" />
+    <h1>Hello, I'm GanloG</h1>
+    <p>
+      True G.
+    </p>
+    <p>
+     make Good SHIT
+    </p>
+  </div>
+
+  <!-- Навыки и опыт -->
+  <div class="section">
+    <h2>Skills & Experience</h2>
+    <ul class="skills">
+      <li>The best rapper</li>
+      <li>The best deepwoken player</li>
+    </ul>
+  </div>
+
+  <!-- Галерея работ -->
+  <div class="section">
+    <h2>My models</h2>
+    <p>Here are some of my recent projects and models:</p>
+    <div class="works">
+      <img src="Work1.png" alt="Work 1" />
+      <img src="Work2.png" alt="Work 2" />
+      <img src="Work3.png" alt="Work 3" />
+      <img src="Work4.png" alt="Work 1" />
+      <img src="Work5.png" alt="Work 2" />
+      <img src="Work6.png" alt="Work 3" />
+    </div>
+
+ <h2>My buildings</h2>
+    <p>Here are some of my recent projects and models:</p>
+    <div class="works">
+      <img src="Building1.png" alt="Work 1" />
+      <img src="Building2.png" alt="Work 2" />
+      <img src="Building3.png" alt="Work 3" />
+      <img src="Building4.png" alt="Work 2" />
+      <img src="Building5.png" alt="Work 3" />
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Что я открыт выполнять -->
+  <div class="section">
+    <h2>Open For</h2>
+    <ul class="experience">
+      <li>Commissions for custom 3D assets</li>
+    </ul>
+  </div>
+
+    <!-- Что я открыт выполнять -->
+  <div class="section">
+    <h2>Prices</h2>
+    <ul class="prices">
+      <li>200$$$$11111111111111111111111111111</li>
+    </ul>
+  </div>
+
+
+</body>
+</html>
+
+<!-- Контакты -->
+<div class="section">
+  <h2>Contact Me</h2>
+  <ul class="contacts">
+    <li>Email: ganlo16@mail.ru</li>
+    <li>Discord: ganlo16</li>
+    <!-- Добавьте любые другие способы связи -->
+  </ul>
+</div>
